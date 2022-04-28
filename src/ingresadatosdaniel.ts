@@ -1,9 +1,9 @@
-let  btnEnv  =  documento . getElementById ( "btnEnviar" ) ;
-let  dato  =  documento . formularios [ 0 ] . dato ;
-let  rotulo  =  documento . getElementById ( "rotulo" ) ;
+let btnEnv = document.getElementById("btnEnviar");
+let dato = document.forms[0].dato;
+let rotulo = document.getElementById("rotulo");
 
-btnEnv . addEventListener ( "clic" ,  ( )  =>  {
-  consola _ log ( "La altura es" , dato . value ) ;
-} )
-rótulo . innerHTML  =  "Indique la altura de la persona" ;
+btnEnv.addEventListener("clic", () => {
+  console.log("La altura es",dato.value );
+})
+rotulo.innerHTML= "Indique la altura de la persona";
 

@@ -1,1 +1,1 @@
-console.log("Mi primer repositorio en github");
+console.log("Este es mi primer repositorio en github");

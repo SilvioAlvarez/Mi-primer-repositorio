@@ -11,3 +11,4 @@ if (claveingresada == "eureka") {
 
   
 } 
+rotulo.innerHTML = ("Ingrese la clave");

@@ -10,14 +10,15 @@ let dato2 = document.getElementById("dato2");
 btnEnv.addEventListener("click", () => {
 let num1 : number = Number(dato.value);
 let num2: number = Number(dato1.value);
+let sumaoresta : number = Number(dato2.value);
 let resultado : number = 0;
 
 
-if (dato2.value ===1){
+if (sumaoresta ===1){
 resultado= num1 + num2;
 console.log("El resultado de la suma es: ", resultado);
 
-}else if (dato2.value === 2){
+}else if (sumaoresta === 2){
   resultado = num1 - num2;
 console.log("El resultado de la resta es: ", resultado);
 }

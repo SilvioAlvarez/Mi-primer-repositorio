@@ -5,21 +5,25 @@ let dato = document.getElementById("dato");
 let dato1 = document.getElementById("dato1");
 
 
+
 btnEnv.addEventListener("click", () => {
 let numero : number =Number(dato.value);
-let multiplo : number =Number(dato1.value);
+let exponente : number =Number(dato1.value);
 
-let esMultiplo = (num:number, mult:number):number => {
+let calcularAreaTriangulo = (num:number, exp:number):number => {
  let resultado:number=0;
-resultado= num%2===0;
 
+if(exp ===0){
+  resultado=1;
+}
+else{
+  resultado= num ** exp;
+}
 return resultado;
-}
-console.log("Es divisible? ", esMultiplo(numero,multiplo));
-  }
-  else {
-    console.log("no es divisible";  };
-}
+  };
+
+console.log("El resultado es", calcularAreaTriangulo(numero,exponente));
+
 })
 
 rotulo.innerHTML =("Ingrese el numero");

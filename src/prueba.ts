@@ -7,7 +7,7 @@ while (numeroIngresado <= 0){
   console.log("El numero "+numeroIngresado+" es par");*/
 
 
-//let numeroIngresado : number = Number(prompt("Ingrese un numero"));
+let numeroIngresado : number = Number(prompt("Ingrese un numero"));
  let divisor:number;
 let div: number=0;
 while (numeroIngresado <= 0){
@@ -16,7 +16,7 @@ while (numeroIngresado <= 0){
 for(divisor=0; divisor<=numeroIngresado; divisor++){
 if (numeroIngresado%divisor===0){
 div++;
-console.log("En numero "+divisor+" es divisor de "+numeroIngresado);
+console.log("El numero "+divisor+" es divisor de "+numeroIngresado);
 
 }}
 

@@ -7,7 +7,7 @@ while (numeroIngresado <= 0){
 for(divisor=0; divisor<=numeroIngresado; divisor++){
 if (numeroIngresado%divisor===0){
 div++;
-console.log("En numero "+divisor+" es divisor de "+numeroIngresado);
+console.log("El numero "+divisor+" es divisor de "+numeroIngresado);
 
 }}
 

@@ -20,7 +20,8 @@ console.log("El numero "+divisor+" es divisor de "+numeroIngresado);
 
 }}
 
-    console.log("El numero de divisores es ",div);
+    console.log("El numero de divisores de "+numeroIngresado+" es "+div);
+
 
 
 

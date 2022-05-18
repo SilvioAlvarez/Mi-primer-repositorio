@@ -21,15 +21,15 @@ if(mayor1 > mayor2 && mayor1 > mayor3) {
 
   console.log("El numero " + mayor3 + " es el mayor");
   }
-  else if(mayor1 == mayor2 && mayor2 == mayor3) {
+  else if(mayor1 === mayor2 && mayor2 === mayor3) {
     console.log("todos los numeros son iguales");
   
   }
-  else if(mayor1 == mayor2 && mayor1 > mayor3){
+  else if(mayor1 === mayor2 && mayor1 > mayor3){
   console.log("Se repite dos veces el mayor que es: ", + mayor1);
 
 }
-  else if(mayor1 < mayor2 && mayor2 == mayor3){
+  else if(mayor1 < mayor2 && mayor2 === mayor3){
   console.log("Se repite dos veces el mayor que es: ", + mayor2);
   }
  })

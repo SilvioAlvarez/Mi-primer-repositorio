@@ -1,27 +1,20 @@
-let btnEnv = document.getElementById("btnEnviar");
-let rotulo = document.getElementById("rotulo");
-let rotulo1 = document.getElementById("rotulo1");
-let dato = document.getElementById("dato");
-let dato1 = document.getElementById("dato1");
+let v1 : number[] = new Array(6);
+let v2 : number[] = new Array(6);
+let vsuma : number[] = new Array(6);
+let indice: number;
 
-
-btnEnv.addEventListener("click", () => {
-let numero : number =Number(dato.value);
-let multiplo : number =Number(dato1.value);
-
-let esMultiplo = (num:number, mult:number):number => {
- let resultado:number=0;
-resultado= num%2===0;
-
-return resultado;
+for (indice = 0;indice<6;indice++){
+v1[indice]=Number(prompt("Ingrese el valor v1["+indice+"]"));
+  
 }
-console.log("Es divisible? ", esMultiplo(numero,multiplo));
+for (indice = 0;indice<6;indice++){
+v2[indice]=Number(prompt("Ingrese el valor v1["+indice+"]"));
+  
   }
-  else {
-    console.log("no es divisible";  };
-}
-})
-
-rotulo.innerHTML =("Ingrese el numero");
-rotulo1.innerHTML =("Ingrese el exponente");
-
+  for (indice = 0;indice<6;indice++){
+  
+  vsuma[indice]=v1[indice]+v2[indice];
+  console.log("los numeros v1 son: "+v1);
+  console.log("los numeros v2 son: "+v2);
+  console.log("La suma es",vsuma);
+  }

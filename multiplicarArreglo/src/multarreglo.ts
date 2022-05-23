@@ -19,7 +19,4 @@ return arregloResultado;
 console.log(multiplicarArreglo());
 console.log(multiplicarArreglo());
 console.log(multiplicarArreglo());
-console.log(multiplicarArreglo());
-
-
 

@@ -8,7 +8,7 @@ for (indice = 0; indice<10; indice++){
   console.log("El numero en la posicion"+indice+"es"+arregloCompletar[indice]);
 
 }
-function Azar(tope : number): numbver{
+function Azar(tope : number): number{
   return Math.floor(Math.random()*tope);
   
 }

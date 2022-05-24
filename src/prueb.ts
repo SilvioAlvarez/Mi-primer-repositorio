@@ -1,25 +1,11 @@
-function multiplicarArreglo( arreglo:number[]){
+function multiplicarArreglo( arreglo1:number[],arreglo2:number[]):number{
+arreglo1=[1,2,3];
+arreglo2=[4,5,6];
+let result:number=0;
+result[]= arreglo1[]*arreglo2[];
 
-let indice:number;
-let arreglo1:number[]=new Array(3);
-let arreglo2:number[]=new Array(3);
-let arregloResultado:number[]= new Array(3);
-
-for (indice=0;indice<3;indice++){
-  arreglo1[indice]=Number(prompt("Ingrese valores arreglo1 "+indice));
-}
-for (indice=0;indice<3;indice++){
- arreglo2[indice]=Number(prompt("Ingrese valores arreglo2 "+indice));
-}
-for (indice=0;indice<3;indice++){
-arregloResultado[indice]=arreglo1[indice]*arreglo2[indice];
-}
-return arregloResultado;
+return result;
 }
 console.log(multiplicarArreglo());
-console.log(multiplicarArreglo());
-console.log(multiplicarArreglo());
-console.log(multiplicarArreglo());
 
-
-
+multiplicarArreglo();

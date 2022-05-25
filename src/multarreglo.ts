@@ -1,26 +1,23 @@
-function multiplicarArreglo(arreglo1:number[],arreglo2:number[],largo:number):number[]{
-	let indice:number;
-	let arregloResultado:number[]= new Array(largo);
-	for (indice=0;indice<largo;indice++){
-		arregloResultado[indice]=arreglo1[indice]*arreglo2[indice];
-	}
-	return arregloResultado;
+function contarButacasDesocupadas(butacas:number[],ocupadas:number[],desocupadas:number[],largo:number):number{
+
+let indice: number;
+let desocupada: number=0;
+for (indice=0; indice<largo; indice++){
+
+if(butacas[indice]===0){
+  desocupada=indice;
 }
-// acá cargamos los arreglos
+}
+return desocupada;
+}
+let cantidad:number=50;
+
 let indice:number;
-let longitud=Number(prompt("Ingrese cuantos numeros quiere multiplicar")); // se puede pedir al usuario la longitud
-let arreglo1:number[]=new Array(longitud);
-let arreglo2:number[]=new Array(longitud);
-for (indice=0;indice<longitud;indice++){
-  arreglo1[indice]=Number(prompt("Ingrese valores arreglo1 "+indice));
+
+let butacasDesocupadas:number[];
+for (indice=0;indice<cantidad;indice++){
+butacasDesocupadas[indice]++;
 }
-for (indice=0;indice<longitud;indice++){
- arreglo2[indice]=Number(prompt("Ingrese valores arreglo2 "+indice));
 
-}
-console.log(multiplicarArreglo(arreglo1,arreglo2,longitud));
-
-
-
-
-
+ 
+console.log(contarButacasDesocupadas());

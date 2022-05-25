@@ -57,5 +57,5 @@ for (indice=0;indice<longitud;indice++){
 for (indice=0;indice<longitud;indice++){
  arreglo4[indice]=Number(prompt("Ingrese valores arreglo4 "+indice));
 }
-console.log(multiplicarArreglo(arreglo1,arreglo2,longitud));
+console.log(multiplicarArreglo(arreglo1,arreglo2,arreglo3,arreglo4,longitud));
 

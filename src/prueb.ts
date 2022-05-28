@@ -1,4 +1,4 @@
-let cine:boolean[]= [false,false,true,true,false,true];
+let cine:boolean[]= [false,false,true,true,false,false,true,false];
 let vacias:number=0;
 
 

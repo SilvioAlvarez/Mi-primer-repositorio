@@ -1,3 +1,5 @@
+//Lo hicimos en clase con Karen
+
 let cine:boolean[]= [false,false,true,true,false,true];
 let vacias:number=0;
 

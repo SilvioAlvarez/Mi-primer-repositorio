@@ -8,11 +8,9 @@ let notasdesap:string[]=" ";
   function notaAlumno(nota:number[],cantidad:number){
     for (indice = 0;indice<dimensionArreglo;indice++){
     cantidadNotas[indice]=Number(prompt("Ingrese el valor v1["+indice+"]"));
-  
 }
     for(indice=0; indice<dimensionArreglo; indice++){
     cantidadMeses[indice] =prompt("Ingrese el mes para la nota "+indice);
-
 
     console.log("Para el mes de " + cantidadMeses[indice]+ " la nota es: "+cantidadNotas[indice]);
 }   for(indice=0; indice<dimensionArreglo; indice++){
@@ -21,8 +19,8 @@ let notasdesap:string[]=" ";
  
         desaprobadas++;
         notasdesap+=cantidadMeses[indice]+",";
- }
-}}
+ }}}
+
 let maximanota:number[]=0;
 let minimanota:number[]=dimensionArreglo;
 let maximes:string=" ";
@@ -38,25 +36,17 @@ let minimes:string=" ";
    }   if (cantidadNotas[indice]<minimanota){
          minimanota=cantidadNotas[indice];
         minimes=cantidadMeses[indice]+","
-
-
-      }
-
-    
-    }
- } 
+  }}} 
+  
   let sumatotal:number[]=0;
       let promedio:number[]=0;
   function calcularPromedio(cantidad:number){
     
     for(indice=0;indice<dimensionArreglo;indice++){
-      
         sumatotal+=cantidadNotas[indice];
     }
         promedio=sumatotal/dimensionArreglo;
-    
- }
-
+    }
 notaAlumno();
 maximarNota();
 calcularPromedio();

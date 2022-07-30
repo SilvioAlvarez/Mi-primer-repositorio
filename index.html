@@ -1,56 +1,27 @@
 <!DOCTYPE html>
-<html>
 
-	<head>
-		<title>Dorrego en Noticias</title>
-		<meta charset="UTF-8" />
-		<link rel="stylesheet" href="/src/paginaprueba.css"/>
-	</head>
+<head>
+	<meta charset="utf-8">
+	<title>Mi página</title>
+	
+	
+	
+</head>
+<body>
+		<h1>Carrito de compras</h1>
+<div class="contenedor">
+<input type="text" id="producto" placeholder="producto">
+<input type="number" id="precio" placeholder="precio">
+<button id="btn-agregar">Agregar al carrito</button>
+<button id="btn-calcular">Calcular</button>
 
-	<body>
-	<div class="Ciudad">
-<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-      <img src=".C:\Users\net\Desktop\EQUIPOS Y CLUBES" class="d-block w-100" alt="notinoti">
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src=".C:\Users\net\Desktop\EQUIPOS Y CLUBES." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src=".C:\Users\net\Desktop\EQUIPOS Y CLUBES" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+<p>Lista de compras</p>
+<ul id="lista"></ul>
+
+<h3>Total: $ <span id="total"></h3>
+
+<button id="vaciar">Vaciar</button>
 </div>
-
-	<h4 style= "color:#2980B9" >Noticias de la ciudad</h4>
-	<h2>Proyecto sobre apicultura</h2>
-<p>
- El Concejo Deliberante local solicitó a la Cámara de Diputados bonaerense el “pronto tratamiento, debate y aprobación” del proyecto que tiene como objetivo la creación de un régimen de protección, promoción y desarrollo de la actividad apícola e incentivar “la experimentación, investigación y enseñanza encaminadas a lograr la incrementación y mejoramiento de los productos y subproductos de la apicultura”.
-</p>
-<div class="Distrito">
-	<h4 style= "color:#2980B9 ">Noticias del distrito</h4>
-	<h2>Se realizará en El Perdido el taller Huerta en casa</h2>
-	<p>
-	En el marco del proyecto «Huerta en Casa», la Dirección de Producción y la delegación municipal de El Perdido anunciaron la realización de un taller teórico práctico a cargo de la ingeniera agrónoma Silvana Nondedeu. Será el miércoles 6, a las 10,30 en el Centro Cultural «La Casona» de El Perdido.
-	</p>
-	<div class="Deportes">
-	<h4 style= "color:#2980B9" >Deportivas</h4>
-	<h2>Dorreguense en la Copa Sudamericana</h2>
-	<p> >
-	El torneo sudamericano del que participará la tandilense Agustina Barroso tendrá suma importancia ya que también brinda acceso a los Juegos Panamericanos de Santiago 2023 y también para los Juegos Olímpicos de París 2024.
-	</p>
-
-
-		<script src="src/index.ts"></script>
-	</body>
-
+<script src="src/carrito.ts"></script>
+</body>
 </html>

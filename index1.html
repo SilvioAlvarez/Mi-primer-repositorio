@@ -1,14 +1,27 @@
-<html>
+<!DOCTYPE html>
 
-	<head>
-		<title>Indice</title>
-		<meta charset="UTF-8" />
-	</head>
+<head>
+	<meta charset="utf-8">
+	<title>Mi página</title>
+	
+	
+	
+</head>
+<body>
+		<h1>Carrito de compras</h1>
+<div class="contenedor">
+<input type="text" id="producto" placeholder="producto">
+<input type="number" id="precio" placeholder="precio">
+<button id="btn-agregar">Agregar al carrito</button>
+<button id="btn-calcular">Calcular</button>
 
-	<body>
-	<h2>Indice </h2>
+<p>Lista de compras</p>
+<ul id="lista"></ul>
 
-		<script src="src/index.ts"></script>
-	</body>
+<h3>Total: $ <span id="total"></h3>
 
+<button id="vaciar">Vaciar</button>
+</div>
+<script src="src/carrito.ts"></script>
+</body>
 </html>

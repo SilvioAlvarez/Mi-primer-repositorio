@@ -23,9 +23,8 @@ const calcularTotal = () => {
 suma = 0;
     for (let i: number=0; i < precios.length; i++){
       suma += Number(precios[i]);
-
+      
     }
-    console.log(precios);
            total?.innerHTML = suma; 
 
 }
